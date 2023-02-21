@@ -233,7 +233,7 @@ form{
 }
 #veri{
    fill: white;
-   with: 150px;
+   width: 150px;
    display: block;
    margin: auto;
    margin-botton: 10px;
