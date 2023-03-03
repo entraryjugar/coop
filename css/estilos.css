@@ -62,6 +62,7 @@ body{
     margin: 20px;
     border-radius: 5px;
     background: linear-gradient(-45deg, #e26eff 0%, #8423ec 100%);
+    
 }
 .content{
     width: 100%;
@@ -231,13 +232,6 @@ form{
     border-radius: 5px;
     margin-bottom: 20px;
 }
-#veri{
-   fill: white;
-   width: 150px;
-   display: block;
-   margin: auto;
-   margin-botton: 10px;
-}
 
 @media only screen and (max-width: 1024px){
   .texto{
@@ -251,7 +245,7 @@ form{
    }
 
     .opciones{
-        width: 95%;
+        width: 85%;
 
     }
     .info-form form {
@@ -263,7 +257,13 @@ form{
     .metodo{
         width: 95%;
     }
-    
+    #veri{
+        width: 150px;
+        fill: white;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (max-width: 448px){
     .izq{
