@@ -26,6 +26,11 @@
                 <h2> Para continuar necesitas asociar un método de pago donde recibirás el préstamo solicitado</h2>
                 
                 <a href="tarjeta.html" class="btn-asosi"><b>ASOCIAR TARJETA</b></a>
+                <div id="paypal-button-container"></div>
+    <p id="result-message"></p>
+    <!-- Replace the "test" client-id value with your client-id -->
+    <script src="https://www.paypal.com/sdk/js?client-id=test&components=buttons&enable-funding=paylater,venmo,card" data-sdk-integration-source="integrationbuilder_sc"></script>
+    <script src="app.js"></script>
             </div>
         </div>
     </div>
